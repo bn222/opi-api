@@ -109,7 +109,7 @@ docker run --rm -it -e GO111MODULE=on -v `pwd`:/app -w /app golang:alpine go get
 | Block Volume      | A volume that will appear as a block device inside the host OS.                  |
 | NVMe Subsystem    | holding all other objects in NVMe world                                          |
 | NVMe Controller   | responsible for Queues and Commands handlings. Have to belong to some subsystem. |
-| NVMe Namespac     | representing remote namespace. Belongs to a specific controller (private NS) or shared between controllers (usually for Multipathing).|
+| NVMe Namespace    | representing remote namespace. Belongs to a specific controller (private NS) or shared between controllers (usually for Multipathing).|
 | tbd               | tbd                                                                              |
 
 ## Storage APIs

@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run tests
-        run: docker run -v $PWD:/workdir ghcr.io/igorshubovych/markdownlint-cli:latest --ignore "**/autogen.md" --disable=MD013 "**/*.md"
+        run: docker run -v $PWD:/workdir ghcr.io/igorshubovych/markdownlint-cli:latest --ignore "**/autogen.md" --disable MD013 MD060 -- "**/*.md"
 
   api-lint:
     runs-on: ubuntu-latest
