@@ -1,4 +1,4 @@
-module github.com/opiproject/opi-api/v1/gen/go/inventory
+module github.com/opiproject/opi-api/v1/gen/go/lifecycle
 
 go 1.24.3
 

@@ -1,4 +1,4 @@
-module github.com/opiproject/opi-api
+module github.com/opiproject/opi-api/v1/gen/go/storage
 
 go 1.24.3
 
